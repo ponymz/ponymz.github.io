@@ -1,0 +1,14 @@
+---
+layout: default
+title: Markdown
+---
+Jekyll的特色之一就是可以用markdown语法来书写。于是，我在网上搜了markdown的语法，在第一个帖子里写了‘**中文测试**’，结果push到github后发现并没有被解析。
+我以为不能直接用，需要设置某些选项，但是在网上没有搜到。而且最诡异的是，网上的教程里根本都没有用markdown，测试页面用的要么是HTML，比如‘$ printf "<h1>It works!</h1>" > index.html’，要么是Liquid，比如
+阮一峰的[《搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门》](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+连[Jekyll官网的教程](http://jekyllrb.com/docs/posts/)和[github的jekyll教程](https://help.github.com/articles/using-jekyll-with-pages/)里都没有。我甚至怀疑是不是要先本地用Jekyll编译好然后把编译后的HTML上传到github。好在我不死心，又试了其他语法，发现竟然有些可以用。这时才想起_config.yml中markdown的解析器是kramdown，于是怀疑是不是由于不同解析器语法不同。这篇博客里就要测试一下kramdown的语法是不是都能用。
+
+
+
+
+
+
