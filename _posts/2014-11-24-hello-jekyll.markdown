@@ -8,8 +8,8 @@ title: Hello Jekyll
 <p>{{ page.date | date_to_string }}</p>
 
 # Header 1 #
-## Header 2 #
-### Header 3 #
+## Header 2 ##
+### Header 3 ###
 
 + One
 + Two
