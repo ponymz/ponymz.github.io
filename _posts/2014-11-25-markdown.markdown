@@ -15,7 +15,7 @@ Jekyll的特色之一就是可以用markdown语法来书写。\\
 好在我不死心，又试了其他语法，发现竟然有些可以用。现在怀疑是不是由于不同解析器语法不同。这篇博客里就测试一下jekyll的markdown解析器kramdown的语法。
 
 
-
+\\
 ### 标题
 
 代码
@@ -28,10 +28,7 @@ Jekyll的特色之一就是可以用markdown语法来书写。\\
 	
 
 效果
-# First level header
-## Second level header
-### Third level header
-	
+
 # First level header
 	
 ## Second level header
