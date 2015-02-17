@@ -4,6 +4,7 @@ title: Mou
 ---
 Just found a markdown editor called **Mou**.  It provides an example of all syntax it supports.  I just paste the example below to see if all of them are compatible with Kramdown.  
 ***
+ 
 ### Summarize
 1. According to Kramdown, the atx-style heading should be started with **Block Boundary** (e.g. a blank line or `^`). Since `^` is not supported by Mou, we can add a blank line before the atx-style heading.
 2. Strikethrough is not supported by Kramdown.
