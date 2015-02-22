@@ -135,7 +135,10 @@ sup {
     line-height: 0;
 }
 
-
+/* pony defined */
+ol, ul{
+	margin-left:2em;
+}
 
 /* Utility */
 
