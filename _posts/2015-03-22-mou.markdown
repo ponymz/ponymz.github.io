@@ -9,7 +9,7 @@ Just found a markdown editor called **Mou**.  It provides an example of all synt
 ### Summarize
 1. According to Kramdown, the atx-style heading should be started with **Block Boundary** (e.g. a blank line or `^`). Since `^` is not supported by Mou, we can add a blank line before the atx-style heading.
 2. Strikethrough is not supported by Kramdown.
-3. In Kramdom, the Fenced Code Blocks are surrounded by three or more tildes `~`, it seems Mou supports this syntax but the help document only metions by backtick `\``.  
+3. In Kramdom, the Fenced Code Blocks are surrounded by three or more tildes `~`, it seems Mou supports this syntax but the help document only metions by backtick `` ` ``.  
 
 
 ***
