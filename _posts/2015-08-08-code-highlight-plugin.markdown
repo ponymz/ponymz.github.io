@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 代码高亮和评论功能测试
-category: site
+category: jekyll
 ---
 代码高亮功能用了jekyll自带的Pygments，评论功能用的是友言，感觉都不怎么样，先用起来再说。
 
