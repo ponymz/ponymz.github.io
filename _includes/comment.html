@@ -1,0 +1,25 @@
+<!-- UY BEGIN -->
+<script type="text/javascript">
+//Get page id without category
+//e.g. /2015/08/09/abc in /test/test2/2015/08/09/abc
+function getPurePageId(){
+	var purePageId = '{{page.id}}';
+
+	//match /20xx/xx/xx/xxxxxx
+	var result = purePageId.match(/\/20\d{2}\/\d{2}\/.*/);
+	if(result != null && result.length > 0){
+		purePageId = result[0];
+	}
+
+	return purePageId;
+}
+
+var uyan_config = {
+             'du':'ponymz.github.io',  //domain
+             'su': getPurePageId()  //unique id of the page
+};
+</script>
+
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2053271"></script>
+<!-- UY END -->

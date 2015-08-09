@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hello Jekyll
 ---
 <h2>{{ page.titile }}</h2>

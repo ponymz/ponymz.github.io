@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Mou
 ---
 Just found a markdown editor called **Mou**.  It provides a helpme document which contains examples of all syntax it supports.  I paste the document below to test if all of them are compatible with Kramdown.  
